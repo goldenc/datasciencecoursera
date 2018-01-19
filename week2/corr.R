@@ -11,10 +11,4 @@ corr <- function(directory, threshold = 0) {
         }
         
         results
-        #sum(completedCases$obs > threshold)
-        
-        # for(monitor in 1:332) {
-        #         data = read.csv(paste(directory, "\\", str_pad(monitor, 3, pad = "0"), ".csv", sep=""))
-        #         hasObservation <- sum(!is.na(data$sulfate) & !is.na(data$nitrate))
-        # }
 }
